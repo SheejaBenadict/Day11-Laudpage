@@ -1,0 +1,97 @@
+
+h3{
+    text-align: center;
+    margin: 10px auto;
+    max-width: 100%;
+    position: relative;
+    
+}
+h3::before{
+    background-color: rgb(82, 78, 78);
+    display: block;
+    width: 400px;
+    height: 0.3px;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+}
+h3::after{
+    background-color:  rgb(82, 78, 78);
+    display: block;
+    width: 400px;
+    height: 0.3px;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -1;
+}
+.poetry{
+    /* margin: 10px auto; */
+    text-align: center;
+    max-width: 100%;
+    position: relative;
+}
+.poetry::before{
+    
+    background-color: rgb(82, 78, 78);
+    display: block;
+    width: 120px;
+    height: 0.3px;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+
+}
+.poetry::after{
+    
+    background-color: rgb(82, 78, 78);
+    display: block;
+    width: 120px;
+    height: 0.3px;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -1;
+
+}
+.poetry1{
+    /* margin: 10px auto; */
+    text-align: center;
+    max-width: 100%;
+    position: relative;
+}
+.poetry1::before{
+    
+    background-color: rgb(82, 78, 78);
+    display: block;
+    width: 60px;
+    height: 0.3px;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+
+}
+.poetry1::after{
+    
+    background-color: rgb(82, 78, 78);
+    display: block;
+    width: 60px;
+    height: 0.3px;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -1;
+
+}
+p{
+    font-size: 13px;
+}
